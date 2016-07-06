@@ -2,13 +2,11 @@ var gulp = require('gulp'),
     gulpWatch = require('gulp-watch'),
     del = require('del'),
     runSequence = require('run-sequence'),
-    buildWebpack = require('ionic-gulp-webpack'),
+    buildWebpack = require('webpack-gulp'),
     sass = require('gulp-sass');
 
-var webpackConfigurationProduction = require('./config/webpack.production.js');
-var webpackConfiguration = require('./config/webpack.config.js');
-
-
+var webpackConfigurationProduction = require('./config/webpack.production.js'),
+    webpackConfiguration = require('./config/webpack.config.js');
 
 gulp.task('watch', ['clean'], function(done){
     runSequence(
@@ -41,7 +39,6 @@ gulp.task('build', ['clean'], function(done){
         }
     );
 });
-
 
 gulp.task('copyImages', function() {
     gulp.src('resources/images/*')

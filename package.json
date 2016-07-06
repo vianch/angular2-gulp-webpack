@@ -54,7 +54,6 @@
     "html-webpack-plugin": "^2.17.0",
     "http-server": "^0.9.0",
     "imports-loader": "^0.6.5",
-    "ionic-gulp-webpack": "^2.0.0",
     "istanbul-instrumenter-loader": "^0.2.0",
     "json-loader": "^0.5.4",
     "lite-server": "^2.2.2",
@@ -74,6 +73,7 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
+    "webpack-gulp": "^2.0.3",
     "webpack-md5-hash": "^0.0.5",
     "webpack-merge": "^0.13.0",
     "webpack-stream": "^3.2.0"
