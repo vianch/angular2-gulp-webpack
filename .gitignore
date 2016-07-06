@@ -43,8 +43,12 @@ npm-debug.log
 .sublime-grunt.cache
 
 #webstorm
-../.idea
+.idea
+.idea/atlassian-ide-plugin.xml
+.idea/vcs.xml
+.idea/workspace.xml
 
+#production
 www/
 www/js
 www/css
@@ -54,3 +58,5 @@ plugins/
 *.swp
 .DS_Store
 Thumbs.db
+
+
