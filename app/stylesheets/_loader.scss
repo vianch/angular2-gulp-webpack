@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  font: 12px "Monaco", Inconsolata, monospace;
+  background: #083952;
+  color: #f8f8f8;
+}
+
+.dollar:before {
+  content: '$';
+  color: #52a563;
+  padding-right: 5px;
+}
